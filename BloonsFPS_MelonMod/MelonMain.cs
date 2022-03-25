@@ -9,8 +9,8 @@ using System.Linq;
 namespace BloonsFPSMelonMod
 {
     /// <summary>
-    /// If you need help with your mods, join the Bloons FPS discord server: https://discord.gg/6dMwHkzCyj
-    /// Thanks to Sayan for creating such an Awesome fan game!
+    /// If you need help with your mods, join the Sayan Games Discord server: https://discord.gg/6dMwHkzCyj
+    /// Thanks to Sayan for creating such an awesome fan game!
     /// </summary>
     //////// 
     ///:D///
@@ -28,17 +28,17 @@ namespace BloonsFPSMelonMod
             MelonLogger.Msg("-------------------");
             MelonLogger.Msg("Loading 92%");
             MelonLogger.Msg("Mod has finished loading.");
-            MelonLogger.Msg("Please feel free to contribute to my github I take pull requests!");
+            MelonLogger.Msg("Please feel free to contribute to my GitHub, I take pull requests!");
             MelonLogger.Msg("Keybinds:");
             MelonLogger.Msg("T = Show Current Info");
             MelonLogger.Msg("I = Toggle Invincibility");
             MelonLogger.Msg("Y = Add 100 Health");
             MelonLogger.Msg("O = Add 100 Coins");
-            MelonLogger.Msg("Right SHift = Open GUI");
+            MelonLogger.Msg("Right Shift = Open GUI");
             MelonLogger.Msg("More Coming Soon!");
             MelonLogger.Msg("-------------------");
             MelonLogger.Warning("Don't Use Hacks Before In-Game, May Cause Crash!");
-            MelonLogger.Warning("If something does not work correcty, comment on github page!");
+            MelonLogger.Warning("If something does not work correcty, comment on GitHub page!");
         }
 
         //--------------------------------------Declarations
@@ -60,7 +60,7 @@ namespace BloonsFPSMelonMod
 
         public static void CustomUpdate()
         {
-            //----------------looking for existing instances
+            //----------------Looking for existing instances
             playerHealth = UnityEngine.Object.FindObjectOfType<PlayerHealth>();
             upgradeScript = UnityEngine.Object.FindObjectOfType<UpgradeScript>();
             spawnObjectscript = UnityEngine.Object.FindObjectOfType<SpawnObjectScript>();
